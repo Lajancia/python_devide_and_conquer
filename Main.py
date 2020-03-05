@@ -30,6 +30,6 @@ def max_sum(arr, l, h):
 		
 		return max(max_left,max_right,max_c)
 
-A = [int(x) for x in input().split()]
+A = [1,2,3,5,3,45,21,342,1]
 sol = max_sum(A, 0, len(A)-1)
 print(sol)
